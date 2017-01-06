@@ -1,6 +1,9 @@
+apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
-group = 'com.github.magicmirouff'
+
+group = 'com.magicmirouf'
+version = '1.0'
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
